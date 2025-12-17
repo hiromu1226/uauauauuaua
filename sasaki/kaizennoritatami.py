@@ -20,7 +20,7 @@ st.subheader("メール情報を入力")
 company = st.text_input("相手側の会社名")
 person = st.text_input("相手側の担当者名")
 industry = st.text_input("相手側の業種")
-service = st.text_area("自社サービス説明", height=120)
+service = st.text_area("自社サービスの説明", height=120)
 
 tone = st.selectbox("トーン（文体）", ["丁寧", "ビジネスライク", "フランク"])
 
