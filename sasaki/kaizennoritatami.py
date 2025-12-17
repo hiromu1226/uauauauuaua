@@ -105,7 +105,7 @@ if st.button("営業メールを生成"):
                     st.session_state.generated_results.append({
                         "title": title.strip(),
                         "body": body.strip(),
-                        "history": []  # 改善履歴
+                        "history": []   # 改善履歴
                     })
                 except:
                     st.session_state.generated_results.append({
